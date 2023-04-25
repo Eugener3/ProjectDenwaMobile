@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectDenwaMobile.MainPage">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="Black">
+            <Label Text="Welcome to Project DENWA" HorizontalOptions="Center" Margin="0, 200, 0, 0" FontSize="26" TextColor="White"/>
+            <Label Text="Please log in or create an account to continue" HorizontalOptions="Center" TextColor="LightGray"/>
+            <StackLayout HorizontalOptions="CenterAndExpand" Margin="10" Orientation="Horizontal">
+                <Button Text="Sign In" Clicked="SignInButton_Clicked" BackgroundColor="Black" Margin="0, 0, 40, 0" BorderColor="White" BorderWidth="1"/>
+                <Button Text="Sign Up" Clicked="SignUpButton_Clicked" BackgroundColor="Black" BorderColor="White" BorderWidth="1"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
